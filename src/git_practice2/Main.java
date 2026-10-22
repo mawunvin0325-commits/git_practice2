@@ -2,7 +2,8 @@ package git_practice2;
 
 public class Main {
 	public static void main(String[] args) {
-		Hello hello=new Hello();
-		hello.say();
-	}
+        Hello h = new Hello("hello world");
+        h.say();
+    }
+
 }
